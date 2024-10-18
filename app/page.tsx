@@ -39,7 +39,7 @@ export default function Home() {
 
 
   return (
-    <Card className='relative'>
+    <Card className='relative h-[90vh]'>
       <CardBody className='z-20 relative overflow-hidden'>
         <MapComponent reports={reports} />
       </CardBody>
