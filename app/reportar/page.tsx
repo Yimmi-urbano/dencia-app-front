@@ -94,6 +94,7 @@ export default function Report() {
       await axios.post('https://api-report-denuncias.agencsi.com/api/reports', {
         description,
         incidentType: selectedIncidentType,
+        address:address,
         coordinates: { lat: latitude, lon: longitude }
       });
       alert('Denuncia enviada correctamente');
