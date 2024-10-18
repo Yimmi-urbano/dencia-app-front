@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import dynamic from 'next/dynamic';
 import React from 'react';
-import { Button, Card, CardBody, CardFooter, Link } from '@nextui-org/react';
+import { Button, Card, CardBody, Link } from '@nextui-org/react';
 
 const MapComponent = dynamic(() => import('../components/MapComponent'), {
   ssr: false
